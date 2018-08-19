@@ -1,0 +1,245 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.espacio{
+  width: 1100px;
+  margin: auto;
+}
+
+#encabezado{
+  background-color: #244255;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logotipo img{
+  display: inline-block;
+  width: 80px;
+  margin: 0px;
+  padding-left: 10px;
+}
+
+.headermenu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headermenu a {
+  color: white;
+  padding-left: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a:link,
+.menu a:visited {
+  color: #fff;
+}
+
+.login {
+  margin: 0px;
+  padding: 0px 13px 0px 13px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.boton_login {
+  border-radius: 3px;
+  color: white;
+  background-color: #ff4842;
+  font-size: 15px;
+  border: 0px;
+  padding: 7px 13px 11px 13px;
+  margin: 8px 0px;
+}
+
+#inicio {
+  background-color: #EFEFEF;
+}
+
+#busqueda {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#buscar {
+  border: 0px;
+  padding: 10px 7px 10px 7px;
+  margin: 6px 5px 6px 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 19px;
+}
+
+#lupa{
+  border-radius: 6px;
+  background-color: #333333;
+  padding: 10px;
+}
+
+#lupa img {
+  width: 17px;
+  height: 17px;
+}
+
+#portada {
+  height: 550px;
+  width: 1100px;
+  background-image: url("images/fondo-blog.jpg");
+  background-size: cover;
+  margin: 0px 0px 0px 0px;
+}
+
+.tituloprincipal {
+  position: relative;
+  top: 340px;
+  left: 15px;
+  width: 475px;
+  background-color: rgb(255, 255, 255, 0.7);
+}
+
+.titulo-portada {
+    padding: 25px 20px 0px 20px;
+    margin: 0px 0px 5px 0px;
+}
+
+.linea {
+  color: black;
+  width: 90%;
+}
+
+.persona,
+.nombre-avatar,
+.fecha {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.persona {
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.persona img {
+  width: 28px;
+  height: auto;
+}
+
+.nombre-avatar {
+  position: relative;
+  bottom: 15px;
+}
+
+.fecha {
+  position: relative;
+  bottom: 15px;
+  left: 210px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.entradas {
+  width: 303px;
+  padding-top: 30px;
+}
+
+.entradas img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.entradas a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.entradas hr{
+  margin-top: 10px;
+  width: 100%;
+}
+
+.entradas .datos{
+  display: flex;
+  flex-flow: wrap row;
+  margin-bottom: 15px;
+}
+
+.emisor{
+  margin: 0px 0px 0px 0px;
+}
+
+.datos .fecha_entrada {
+  position: relative;
+  right: -50px;
+  margin: 0px 0px 0px 0px;
+}
+
+.emisor,
+.fecha_entrada {
+  font-size: 13px;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: -40px;
+  padding-bottom: 16px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:17px;
+}
+
+.numeracion,
+.paginas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pagina{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.paginas a{
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.footer button{
+  background-color: white;
+  font-size:17px;
+  padding: 2px 7px;
+  font-weight: bold;
+  border-width: 1px;
+}
+
+.navegacion a{
+  margin-left: 10px;
+}
