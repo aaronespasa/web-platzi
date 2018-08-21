@@ -49,6 +49,11 @@ body {
   color: #fff;
 }
 
+.menuline{
+  border-right: 2px solid white;
+  padding-right: 10px;
+}
+
 .login {
   margin: 0px;
   padding: 0px 13px 0px 13px;
@@ -58,6 +63,10 @@ body {
 }
 
 .boton_login {
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  box-shadow: inset 0 -3px rgba(0,0,0,0.3);
   border-radius: 3px;
   color: white;
   background-color: #ff4842;
@@ -65,6 +74,14 @@ body {
   border: 0px;
   padding: 7px 13px 11px 13px;
   margin: 8px 0px;
+  cursor:pointer;
+}
+
+.boton_login:hover{
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  background-color: #7DCD40;
 }
 
 #inicio {
@@ -90,6 +107,7 @@ body {
   border-radius: 6px;
   background-color: #333333;
   padding: 10px;
+  cursor:pointer;
 }
 
 #lupa img {
@@ -165,13 +183,27 @@ body {
 .entradas img {
   width: 100%;
   cursor: pointer;
+  transition-property:filter;
+  transition-duration: 1s;
+  filter:brightness(1)
+}
+
+.entradas img:hover {
+  filter:brightness(0.5)
 }
 
 .entradas a{
+  transition-property: font-size;
+  transition-duration: 1s;
   text-decoration: none;
   color: black;
   cursor: pointer;
   color: rgb(0, 0, 0, 0.8);
+  font-size: 19px;
+}
+
+.entradas a:hover {
+  font-size: 20px;
 }
 
 .entradas hr{
@@ -225,20 +257,32 @@ footer{
 .pagina{
   margin-top:20px;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 
 .paginas a{
   margin-left: 10px;
   text-decoration: none;
   color: black;
+  font-weight: 600;
 }
 
 .footer button{
+  transition-property: background-color;
+  transition-duration: 0.5s;
   background-color: white;
+  color:black;
   font-size:17px;
   padding: 2px 7px;
-  font-weight: bold;
   border-width: 1px;
+  font-weight: bold;
+  cursor:pointer;
+}
+
+.footer button:hover{
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: #CCCCCC;
 }
 
 .navegacion a{
